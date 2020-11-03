@@ -12,6 +12,7 @@ server.use(logger("tiny"));
 
 server.engine("handlebars", exphbs());
 server.set("view engine", "handlebars");
+server.use(express.static("public"));
 
 server.use(routes);
 

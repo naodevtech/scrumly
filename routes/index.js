@@ -3,7 +3,9 @@ const express = require("express");
 const mainRouter = express.Router();
 
 mainRouter.get("/", (request, response) => {
-  response.render("home");
+  response.render("home", {
+    css: "/css/main.css",
+  });
 });
 
 mainRouter.get("/*", (request, response) => {

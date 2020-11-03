@@ -1,0 +1,5 @@
+<svg id="Composant_1_1" data-name="Composant 1 – 1" xmlns="http://www.w3.org/2000/svg" width="161" height="41" viewBox="0 0 161 41">
+  <ellipse id="Ellipse_33" data-name="Ellipse 33" cx="21" cy="20.5" rx="21" ry="20.5" transform="translate(10)" fill="#a3bdfd"/>
+  <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="21.5" cy="20.5" rx="21.5" ry="20.5" fill="#1e59ef"/>
+  <text id="Scrumly" transform="translate(57 28)" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Scrumly</tspan></text>
+</svg>
