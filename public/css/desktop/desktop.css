@@ -1,0 +1,139 @@
+@media only screen and (min-width: 1024px) and (min-width: 1200px) {
+  /* CONTAINER PRESENTATION */
+  .container_presentation {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  .logo {
+    margin: 1em;
+  }
+
+  .box_heading_informations {
+    align-items: flex-start;
+    width: 50%;
+  }
+
+  .box_heading_informations h3 {
+    font-size: 1em;
+  }
+
+  .box_heading_informations h1 {
+    text-align: left;
+  }
+
+  .box_heading_informations p {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .box_btn_heading {
+    flex-direction: row;
+  }
+
+  .btn_heading {
+    height: 50px;
+    width: 200px;
+    margin-right: 1em;
+  }
+
+  /* ./CONTAINER PRESENTATION */
+
+  /* CONTAINER PARTNERS */
+
+  .container_partners {
+    padding: 0;
+  }
+  .container_partners h3 {
+    font-size: 1em;
+  }
+
+  /* ./CONTAINER PARTNERS */
+
+  /* CONTAINER_CONTENT */
+  .container_content {
+    flex-direction: row;
+    padding: 0;
+    padding: 1em 0 1em 0;
+  }
+
+  .box_infos_content {
+    width: 50%;
+    padding: 2em;
+  }
+
+  .text_infos {
+    width: 70%;
+  }
+
+  /* ./CONTAINER_CONTENT */
+
+  /* CONTAINER_TEAM */
+
+  .container_team {
+    padding: 0;
+  }
+
+  .container_members {
+    flex-direction: row;
+  }
+
+  .box_binome_team {
+    flex-direction: row;
+  }
+
+  /* ./CONTAINER_TEAM */
+
+  /* CONTAINER_CONTACT */
+
+  .container_contact {
+    padding: 0;
+  }
+
+  form {
+    width: 50%;
+    align-items: center;
+    padding: 1em 0 1em 0;
+  }
+
+  .box_inputs {
+    flex-direction: row;
+  }
+
+  .box_inputs input {
+    height: 40px;
+    width: 30%;
+    margin: 1em;
+  }
+  .input_contact {
+    height: 40px;
+    width: 68%;
+    margin: 1em;
+  }
+
+  textarea {
+    height: 100px;
+    width: 68%;
+    margin: 1em;
+  }
+
+  .btn_submit {
+    height: 37px;
+    width: 25%;
+  }
+  /* ./CONTAINER_CONTACT */
+
+  footer {
+    padding: 0;
+  }
+
+  footer {
+    padding: 1em 0 1em 0;
+  }
+}

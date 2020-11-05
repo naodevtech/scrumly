@@ -5,6 +5,7 @@ const mainRouter = express.Router();
 mainRouter.get("/", (request, response) => {
   response.render("home", {
     css: "/css/main.css",
+    tabletStyle: "/css/tablet/tablet.css",
   });
 });
 

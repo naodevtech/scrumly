@@ -8,13 +8,14 @@
             <h1 class="title_heading"></h1>
             <p>Notre équipe est connue pour travailler avec une méthodologie agile afin de permettre la réalisation de
                 votre projet dans des conditions d'améliorations continue</p>
-            <button class="btn_heading btn_more_infos">En savoir plus</button>
-            <button class="btn_heading btn_contact_us">Contactez-nous</button>
+            <div class="box_btn_heading">
+                <button class="btn_heading btn_more_infos">En savoir plus</button>
+                <button class="btn_heading btn_contact_us">Contactez-nous</button>
+            </div>
         </div>
         <img src="/assets/assets_content/first_place.png" alt="work_img" />
     </div>
     <div class="container_partners">
-        {{!-- recreer une boite ici pour le flex --}}
         <div class="box_assets_partner">
             <img class="logo_partner" src="/assets/logos/png/LBP2.png" alt="logo_partner" />
             <img class="logo_partner" src="/assets/logos/png/ARPAVIE2.png" alt="logo_partner" />
@@ -52,17 +53,21 @@
             <h2 class="title_section">Notre équipe</h2>
         </div>
         <div class="container_members">
-            <div class="box_team">
-                <img class="member_scrumly" src="/assets/assets_content/teams/francois.png" alt="member" />
+            <div class="box_binome_team">
+                <div class="box_team">
+                    <img class="member_scrumly" src="/assets/assets_content/teams/francois.png" alt="member" />
+                </div>
+                <div class="box_team">
+                    <img class="member_scrumly" src="/assets/assets_content/teams/marie.png" alt="member" />
+                </div>
             </div>
-            <div class="box_team">
-                <img class="member_scrumly" src="/assets/assets_content/teams/marie.png" alt="member" />
-            </div>
-            <div class="box_team">
-                <img class="member_scrumly" src="/assets/assets_content/teams/miguel.png" alt="member" />
-            </div>
-            <div class="box_team">
-                <img class="member_scrumly" src="/assets/assets_content/teams/lou.png" alt="member" />
+            <div class="box_binome_team">
+                <div class="box_team">
+                    <img class="member_scrumly" src="/assets/assets_content/teams/miguel.png" alt="member" />
+                </div>
+                <div class="box_team">
+                    <img class="member_scrumly" src="/assets/assets_content/teams/lou.png" alt="member" />
+                </div>
             </div>
         </div>
     </div>

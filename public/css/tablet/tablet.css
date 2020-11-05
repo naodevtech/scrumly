@@ -1,0 +1,62 @@
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  /* CONTAINER PRESENTATION */
+  .box_heading_informations h1 {
+    width: 80%;
+  }
+
+  .container_presentation img {
+    height: 23rem;
+    margin-bottom: 3em;
+  }
+  /* ./CONTAINER PRESENTATION */
+
+  /* CONTAINER PARTNERS */
+  .box_assets_partner {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo_partner {
+    height: 180px;
+    width: 180px;
+  }
+  /* ./CONTAINER PARTNERS */
+
+  /* CONTAINER_CONTENT */
+
+  .box_infos_content {
+    width: 80%;
+  }
+  /* ./CONTAINER_CONTENT */
+
+  /* CONTAINER_TEAM */
+
+  .box_binome_team {
+    flex-direction: row;
+  }
+
+  .member_scrumly {
+    margin: 2em;
+  }
+
+  /* ./CONTAINER_TEAM */
+
+  /* CONTAINER_CONTACT */
+
+  .btn_submit {
+    background-color: #1e59ef;
+    height: 55px;
+    width: 20%;
+  }
+
+  /* ./CONTAINER_CONTACT */
+
+  /* FOOTER */
+
+  footer img {
+    margin: 1em;
+  }
+
+  /* ./FOOTER */
+}
