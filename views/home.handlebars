@@ -5,19 +5,93 @@
     <div class="container_presentation">
         <div class="box_heading_informations">
             <h3>Élue l'agence la plus agile de l'année</h3>
-            <h1>Votre agence totalement agile et à l'écoute</h1>
+            <h1 class="title_heading"></h1>
             <p>Notre équipe est connue pour travailler avec une méthodologie agile afin de permettre la réalisation de
                 votre projet dans des conditions d'améliorations continue</p>
             <button class="btn_heading btn_more_infos">En savoir plus</button>
             <button class="btn_heading btn_contact_us">Contactez-nous</button>
         </div>
-        <img src="/assets/assets_content/first_place.png" alt="work_img" </div>
+        <img src="/assets/assets_content/first_place.png" alt="work_img" />
     </div>
     <div class="container_partners">
-        <img class="logo_partner" src="/assets/logos/png/LBP2.png" alt="logo_partner" />
-        <img class="logo_partner" src="/assets/logos/png/ARPAVIE2.png" alt="logo_partner" />
-        <img class="logo_partner" src="/assets/logos/png/BEL2.png" alt="logo_partner" />
-        <img class="logo_partner" src="/assets/logos/png/Paris-Habitat2.png" alt="logo_partner" />
+        {{!-- recreer une boite ici pour le flex --}}
+        <div class="box_assets_partner">
+            <img class="logo_partner" src="/assets/logos/png/LBP2.png" alt="logo_partner" />
+            <img class="logo_partner" src="/assets/logos/png/ARPAVIE2.png" alt="logo_partner" />
+            <img class="logo_partner" src="/assets/logos/png/BEL2.png" alt="logo_partner" />
+            <img class="logo_partner" src="/assets/logos/png/Paris-Habitat2.png" alt="logo_partner" />
+        </div>
         <h3>Ils nous ont fait confiance</h3>
     </div>
+    <div class="container_content">
+        <div class="box_infos_content">
+            <p class="subtitle">Une communcation sans faille</p>
+            <h2 class="title_section">Un échange fluide</h2>
+            <p class="text_infos">Notre équipe garde contact avec vous pour un brief chaque semaine au sujet de
+                l'avancée de
+                votre projet.
+                La communcation est notion très précieuse chez Scrumly. Elle permet la réelle traduction de vos besoins
+            </p>
+        </div>
+        <img class="asset_content" src="/assets/assets_content/second_place.png" alt="asset_content">
+    </div>
+    <div class="container_content">
+        <div class="box_infos_content">
+            <p class="subtitle">Une améliorations continue dans les deux sens</p>
+            <h2 class="title_section">Nous apprenons avec vous</h2>
+            <p class="text_infos">Notre équipe et vous allez apprendre durant votre projet. Nos équipes montent en
+                compétences aussi grâce à vos idées innovatrices et créative. Vous êtes un élément clé dans la montée en
+                compétences
+            </p>
+        </div>
+        <img class="asset_content" src="/assets/assets_content/third_place.png" alt="asset_content">
+    </div>
+    <div class="container_team">
+        <div class="box_teams_infos">
+            <p class="subtitle">" C'est toujours un plaisir pour nous de recevoir vos idées "</p>
+            <h2 class="title_section">Notre équipe</h2>
+        </div>
+        <div class="container_members">
+            <div class="box_team">
+                <img class="member_scrumly" src="/assets/assets_content/teams/francois.png" alt="member" />
+            </div>
+            <div class="box_team">
+                <img class="member_scrumly" src="/assets/assets_content/teams/marie.png" alt="member" />
+            </div>
+            <div class="box_team">
+                <img class="member_scrumly" src="/assets/assets_content/teams/miguel.png" alt="member" />
+            </div>
+            <div class="box_team">
+                <img class="member_scrumly" src="/assets/assets_content/teams/lou.png" alt="member" />
+            </div>
+        </div>
+    </div>
+    <div class="container_content">
+        <div class="box_infos_content">
+            <p class="subtitle">Gardez le contrôle</p>
+            <h2 class="title_section">Vous êtes aux manettes</h2>
+            <p class="text_infos"> Certes notre équipe s'occupent de tout mais avec des brief hebdomadaire et dans notre
+                optique agile, vous êtes décisionnaire de la direction que prendra votre projet tout au long du
+                processus. Nos équipe sont bien évidemment présente pour vous encadrer
+            </p>
+        </div>
+        <img class="asset_content" src="/assets/assets_content/forth_place.png" alt="asset_content">
+    </div>
+    <div class="container_contact">
+        <p class="subtitle">Nous comme joignable à tout moment du lundi au vendredi</p>
+        <h2 class="title_section">Contactez-nous</h2>
+        <form>
+            <div class="box_inputs">
+                <input type="text" name="lastname" class="input_contact" placeholder="Nom" />
+                <input type="text" name="firstname" class="input_contact" placeholder="Prénom" />
+            </div>
+            <input type="email" name="email" class="input_contact" placeholder="Votre adresse e-mail" />
+            <textarea name="message" name="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+            <button class="btn_submit" type="submit">Envoyer</button>
+        </form>
+    </div>
+    <footer>
+        <img class="logo" src="/assets/logos/svg/logo.svg" alt="logo" />
+        <p class="subtitle">86 Avenue Montaigne, 75008 Paris - France</p>
+    </footer>
 </div>
