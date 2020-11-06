@@ -1,7 +1,13 @@
 <div class="container">
     <nav>
         <img class="logo" src="/assets/logos/svg/logo.svg" alt="logo" />
+        {{> switchButton}}
     </nav>
+    {{#if message}}
+    <div class="box_success">
+        <p>{{message}}</p>
+    </div>
+    {{/if}}
     <div class="container_presentation">
         <div class="box_heading_informations">
             <h3>Élue l'agence la plus agile de l'année</h3>
@@ -85,13 +91,13 @@
     <div class="container_contact">
         <p class="subtitle">Nous comme joignable à tout moment du lundi au vendredi</p>
         <h2 class="title_section">Contactez-nous</h2>
-        <form>
+        <form method="POST" action="/">
             <div class="box_inputs">
-                <input type="text" name="lastname" class="input_contact" placeholder="Nom" />
-                <input type="text" name="firstname" class="input_contact" placeholder="Prénom" />
+                <input type="text" class="input_contact" name="lastname" placeholder="Nom" />
+                <input type="text" class="input_contact" name="firstname" placeholder="Prénom" />
             </div>
             <input type="email" name="email" class="input_contact" placeholder="Votre adresse e-mail" />
-            <textarea name="message" name="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+            <textarea name="message" cols="30" rows="10" placeholder="Votre message"></textarea>
             <button class="btn_submit" type="submit">Envoyer</button>
         </form>
     </div>

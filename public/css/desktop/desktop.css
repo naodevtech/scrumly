@@ -136,4 +136,8 @@
   footer {
     padding: 1em 0 1em 0;
   }
+
+  .switch {
+    margin: 1em;
+  }
 }
